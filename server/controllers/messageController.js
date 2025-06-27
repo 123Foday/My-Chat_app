@@ -1,6 +1,6 @@
-import Message from "../models/message.js";
+import Message from "../models/Message.js";
 import User from "../models/User.js";
-import cloudinary from "../lib/cloudInary.js";
+import cloudinary from "../lib/cloudinary.js";
 import { io, userSocketMap } from "../server.js"
 
 
