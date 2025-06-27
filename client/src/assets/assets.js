@@ -22,7 +22,7 @@ import pic4 from './pic4.png'
 import img1 from './img1.jpg'
 import img2 from './img2.jpg'
 import myChatLogo from './myChatLogo.png'
-import logoMychat from './logoMychat.png'
+import logoMychat from './logoMychat.PNG'
 
 const assets = {
     avatar_icon,
