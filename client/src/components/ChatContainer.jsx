@@ -104,7 +104,7 @@ const handleDeleteMessage = async (id) => {
                 {editingMessageId === msg._id ? (
                   <div className="flex gap-2">
                     <input
-                      className="flex-1 text-sm p-1 border rounded border-gray-600 outline-none text-white bg-gray-800 placeholder-gray-400"
+                      className="w-full text-sm md:text-base p-1 border rounded border-gray-600 outline-none text-white bg-gray-800 placeholder-gray-400"
                       value={newText}
                       onChange={(e) => setNewText(e.target.value)}
                     />
